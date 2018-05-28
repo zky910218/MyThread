@@ -12,6 +12,7 @@ public class MyThread06 extends Thread {
 
     @Override
     public void run() {
+
         /**ps: 代码i--由前面项目中单独一行运行改成在当前项目中在println方法中直接进行打印*/
         System.out.println("i= " + (i--) + ", threadName = " + Thread.currentThread().getName());
     }
