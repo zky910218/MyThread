@@ -8,4 +8,20 @@
 
 5. 从源代码中可以发现Thread类实现了Runnable接口，他们之间具有多态的关系。
 
-6.
+6. Thread类中start();方法和run方法的区别。
+
+7. Thread.java也实现了Runnable接口
+
+8. 构造函数Thread(Runnable target)不仅可以传Runnable接口对象，还可以传入一个Thread类的对象，这样做完全可以将一个Thread对象中的run方法交给其他的线程来调用。
+
+9. 自定义线程类中的实例变量针对其他线程可以有共享和不共享之分。
+
+10. synchronized 关键字
+
+11. 线程安全和非线程安全
+
+12. 非线程安全主要是指：多个线程多同一个对象中的同一个实例变量进行操作时会出现值被更改、值不同步的情况。
+
+13. i--与System.out.println()的异常
+
+14. Thread.currentThread()方法可以返回代码正在被哪个线程调用的信息，Thread.currentThread().getName();
